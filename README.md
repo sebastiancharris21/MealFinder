@@ -1,30 +1,17 @@
-# React + TypeScript + Vite
+## REACT + TYPESCRIPT = MEAL FINDER 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+  ![image alt]()
 
-Currently, two official plugins are available:
+## Acerca del proyecto:
+Se implemento React de la mano TypeScript, para crear una pagina de prueba, el cual muestre una lista de comida y ademas de un modal para mostar los detalles para que el usuario pueda observar  las recetas de dichos platos de comida.
+Esta aplicacion fue creada como parte de una series de Curso de REACT en HolaMundoio.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Dependencias del proyecto:
+- React: libreria de Javascript/TypeScript para construir interfaces de usuarios interactivas.
+- Chakra UI: es un sistema de componentes modernos para acelerar el proceso de crear paginas webs.
+- Axios: es un Cliente HTTP basado en promesas para node.js y el navegador. Es isomorfico (= puede ejecutarse en el navegador y nodejs con el mismo código base).
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+  ## APi
+  - [TheMealDB.com](https://www.themealdb.com/api.php):  Api RestFul de recetas de comida. 
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list

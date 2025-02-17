@@ -1,6 +1,6 @@
 ## REACT + TYPESCRIPT = MEAL FINDER 
 
-  ![image alt]()
+  ![image alt](https://github.com/sebastiancharris21/MealFinder/blob/4243b778bb4a08c6a47ab12756305bf92dfcf18c/mealModal.PNG)
 
 ## Acerca del proyecto:
 Se implemento React de la mano TypeScript, para crear una pagina de prueba, el cual muestre una lista de comida y ademas de un modal para mostar los detalles para que el usuario pueda observar  las recetas de dichos platos de comida.
